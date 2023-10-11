@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parallel">
+	<test name="Device-1">
+		<parameter name="deviceName_" value="OPPO A31" />
+		<parameter name="udid_" value="7HJF9SWS6D4DCACE" />
+		<parameter name="platformVersion_" value="9" />
+		<parameter name="url_" value="0.0.0.0:4723/wd/hub" />
+		<classes>
+			<class name="testScripts.TestScript1" />
+		</classes>
+	</test> 
+</suite> 
+

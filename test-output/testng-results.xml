@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-11T17:00:13 IST" name="parallel" finished-at="2023-10-11T17:03:17 IST" duration-ms="183995">
+    <groups>
+    </groups>
+    <test started-at="2023-10-11T17:00:13 IST" name="Device-1" finished-at="2023-10-11T17:03:17 IST" duration-ms="183995">
+      <class name="testScripts.Reflex_Vox_EReport">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:00:13 IST" name="reportSetup" finished-at="2023-10-11T17:00:13 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method signature="tc01_App_Launch()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:00:14 IST" name="tc01_App_Launch" finished-at="2023-10-11T17:00:27 IST" duration-ms="13346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_App_Launch -->
+        <test-method signature="tc02_Permission_Access_Photo_Media_Files()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:00:27 IST" name="tc02_Permission_Access_Photo_Media_Files" finished-at="2023-10-11T17:00:27 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_Permission_Access_Photo_Media_Files -->
+        <test-method signature="tc03_LoginScreen_Agree_Policy()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:00:27 IST" name="tc03_LoginScreen_Agree_Policy" finished-at="2023-10-11T17:00:32 IST" duration-ms="4948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_LoginScreen_Agree_Policy -->
+        <test-method signature="tc04_Login_with_Registered_MobileNumber()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:00:32 IST" name="tc04_Login_with_Registered_MobileNumber" finished-at="2023-10-11T17:00:40 IST" duration-ms="7212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_Login_with_Registered_MobileNumber -->
+        <test-method signature="tc05_Permission_to_Access_device_location_and_enable_relevent_settings()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:00:40 IST" name="tc05_Permission_to_Access_device_location_and_enable_relevent_settings" finished-at="2023-10-11T17:00:51 IST" duration-ms="11567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_Permission_to_Access_device_location_and_enable_relevent_settings -->
+        <test-method signature="tc06_Pairing_the_device()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:00:51 IST" name="tc06_Pairing_the_device" finished-at="2023-10-11T17:01:22 IST" duration-ms="30871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_Pairing_the_device -->
+        <test-method signature="tc07_Set_and_Cancel_Amazon_HealthFitness_Settings()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:01:22 IST" name="tc07_Set_and_Cancel_Amazon_HealthFitness_Settings" finished-at="2023-10-11T17:01:28 IST" duration-ms="6232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_Set_and_Cancel_Amazon_HealthFitness_Settings -->
+        <test-method signature="tc08_ProfileTab()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:01:28 IST" name="tc08_ProfileTab" finished-at="2023-10-11T17:01:31 IST" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_ProfileTab -->
+        <test-method signature="tc09_MultisportTab()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:01:31 IST" name="tc09_MultisportTab" finished-at="2023-10-11T17:01:37 IST" duration-ms="5994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09_MultisportTab -->
+        <test-method signature="tc10_MyDeviceTab()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:01:37 IST" name="tc10_MyDeviceTab" finished-at="2023-10-11T17:01:54 IST" duration-ms="17078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_MyDeviceTab -->
+        <test-method signature="tc11_Home_Excercise_Card(java.lang.String)[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:01:54 IST" name="tc11_Home_Excercise_Card" data-provider="JsonExerciseData" finished-at="2023-10-11T17:02:00 IST" duration-ms="5230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11_Home_Excercise_Card -->
+        <test-method signature="tc12_Home_Sleep_Card(java.lang.String)[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:02:00 IST" name="tc12_Home_Sleep_Card" data-provider="JsonSleepData" finished-at="2023-10-11T17:02:10 IST" duration-ms="10559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6,19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12_Home_Sleep_Card -->
+        <test-method signature="tc13_Stress_Card(java.lang.String)[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:02:10 IST" name="tc13_Stress_Card" data-provider="JsonStressData" finished-at="2023-10-11T17:03:12 IST" duration-ms="62206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc13_Stress_Card -->
+        <test-method signature="tc14_Home_Heart_Rate_Card(java.lang.String)[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:03:12 IST" name="tc14_Home_Heart_Rate_Card" data-provider="JsonHeartRateData" finished-at="2023-10-11T17:03:16 IST" duration-ms="3716" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual and Expected are not same expected [89] but found [87]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual and Expected are not same expected [89] but found [87]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at testScripts.Reflex_Vox_EReport.tc14_Home_Heart_Rate_Card(Reflex_Vox_EReport.java:446)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc14_Home_Heart_Rate_Card -->
+        <test-method signature="tc15_Home_Spo2_Card(java.lang.String)[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:03:16 IST" name="tc15_Home_Spo2_Card" data-provider="JsonBloodOxygenData" finished-at="2023-10-11T17:03:17 IST" duration-ms="1360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[96]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc15_Home_Spo2_Card -->
+        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:testScripts.Reflex_Vox_EReport@1757cd72]" started-at="2023-10-11T17:03:18 IST" name="reportTearDown" finished-at="2023-10-11T17:03:18 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+      </class> <!-- testScripts.Reflex_Vox_EReport -->
+    </test> <!-- Device-1 -->
+  </suite> <!-- parallel -->
+</testng-results>

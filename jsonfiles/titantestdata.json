@@ -1,0 +1,39 @@
+{
+   
+     "exerciseRecord": [
+        {
+            "outdoorWalking": "1.24"
+        }
+    ],
+   
+    "sleepRecord": [
+        {
+            "sleepHours": "6",
+            "sleepMinutes": "19"
+        }
+    ],
+    
+    "heartRateRecord": [
+        {
+            "heartRate": "87"
+        }
+    ],
+    
+    
+     "stressRecord": [
+        {
+            "stress": "30"
+        }
+    ],
+       
+       
+    "bloodOxygenRecord": [
+        {
+            "bloodOxygen": "96"
+        }
+    ]
+   
+}
+
+
+
